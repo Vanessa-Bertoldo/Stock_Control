@@ -19,7 +19,7 @@ export class HomeComponent {
 
   loginForm = this.formBuilder.group({
     email: ['', Validators.required],
-    password: ['', Validators.required],
+    password: ['', Validators.required, Validators.minLength(3)],
   });
 
   signupForm = this.formBuilder.group({
