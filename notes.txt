@@ -1,0 +1,1 @@
+Lazy loading: Faz com que o componente seja carregado apenas quando chamado
